@@ -1,0 +1,19 @@
+name: CompassPointer
+version: 2.0
+author: Queleen
+main: me.quelleen.compasspointer.CompassPointer
+api-version: 1.16
+commands:
+  point:
+    description: Get a compass that points to the player.
+    usage: /<command> <player's nickname>
+    permission: compasspointer.command.point
+  trailreset:
+    description: Reset trails of all players.
+    usage: /<command>
+    permission: compasspointer.command.reset
+permissions:
+  compasspointer.command.point:
+    default: true
+  compasspointer.command.reset:
+    default: op
